@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS test 2</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+		</script>
+
+		<script src="Js/scripts.js"></script>
+		
+
+		<style>
+		#topPanel{
+			position:absolute;
+			top:0px;
+			width:100vw;
+			height:50vh;
+			background:black;
+			}
+		#bottomPanel{
+			position:absolute;
+			bottom:0px;
+			width:100vw;
+			height:50vh;
+			background:black;
+			}
+		#circle{
+			border-radius: 50%;
+			width: 500px;
+			height: 500px;
+			/*border:1px solid red; */
+			position:absolute;
+			margin-top:105px;
+			margin-left:155px;
+			z-index: 1000;
+			background-color:white;
+			display:none;
+		}
+		.greenCircle{
+			background:green;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div id="topPanel"></div>
+		<div id="bottomPanel"></div>
+		<div id="circle"></div>
+	</body>
+
+</html>
